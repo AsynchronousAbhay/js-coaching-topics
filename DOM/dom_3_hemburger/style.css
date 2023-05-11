@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+i{
+    font-size: 30px;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-family: gilroy;
+}
+#center{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center h1{
+    font-size: 50px;
+    font-family: gilroy;
+    width: 70%;
+    text-align: center;
+}
+#full-scr{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 236);
+    transition: 1s ease;
+    position: absolute;
+    top: -100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:gilroy;
+}
+#menu{
+    height: 25px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex-direction: column;
+    cursor: pointer;
+}
+#line1{
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: 0 0;
+    transition: 0.3s ease;
+    /* transform: rotate(45deg); */
+}
+#line2{
+    height: 3px;
+    width: 100%;
+    transition: 0.3s ease;
+    background-color: #000;
+}
+#line3{
+    height: 3px;
+    transform-origin: 0 0;
+    transition: 0.3s ease;
+    width: 100%;
+    background-color: #000;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 10vmax;
+    height: 10vmax;
+    position: absolute;
+    transition: 0.25s all ease;
+}
+
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: green;
+    transform: translateX(-100px);
+}
+.box3 {
+    background-color: blue;
+    transform: translateX(-100px);
+}
+
+.box:hover {
+    z-index: 37;
+    transform: translateX(-100px) scale(1.5);
+}

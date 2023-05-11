@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 171, 156);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: gilroy;
+}
+
+#page2{
+    background-color: royalblue;
+}

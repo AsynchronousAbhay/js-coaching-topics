@@ -1,0 +1,134 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    padding: 0 30px;
+    font-family: gilroy;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+}
+#part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#part2 h5{
+    font-size: 20px;
+    color: #444;
+    margin: 0 15px;
+}
+#part2 button{
+    padding: 6px 14px;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+}
+#center{
+    width: 100%;
+    height: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    font-family: gilroy;
+
+}
+#center h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: #111;
+    margin-top: -100px;
+}
+#center p{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#center button{
+    padding: 10px 28px;
+    cursor: pointer;
+    background-color: rgb(54, 148, 255);
+    color: #fff;
+    font-weight: 900;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
+#img1{
+    position: absolute;
+    top: 56%;
+    left: 7%;
+    height: 260px;
+    width: 300px;
+    object-fit: cover;
+}
+#img2{
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    height: 260px;
+    width: 400px;
+    object-fit: cover;
+}
+i{
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    padding: 8px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+} 
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    height: 100vh;
+    width: 100%;    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: royalblue;
+}
+h1{
+    font-size: 70px;
+    font-family: gilroy;
+}

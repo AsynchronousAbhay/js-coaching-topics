@@ -1,0 +1,10 @@
+- first of all make a main div and a card div
+make a storiyan div and uske ander .story div
+.story ke ander img
+- make an array of objects in JS
+- make a clutter variable and array par loop
+laga denge
+- add eventlistener on storiyan div
+- found arr[dets.target.id].img and put it into background of full-scr div
+- use settimeout to display none
+- use setinterval to increase width of growthdiv
